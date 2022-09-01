@@ -14,8 +14,7 @@ public class Demo1 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Bike",Keys.ENTER);
-//		WebDriverWait  result= new WebDriverWait(driver, Duration.ofSeconds(10))
+		
 	}
 
 }
