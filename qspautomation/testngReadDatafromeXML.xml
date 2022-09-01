@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+
+		<parameter name="browservalue" value="chrome"></parameter>
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="manager"></parameter>
+		<paramerer name="url"
+			value="http://127.0.0.1/login.do;jsessionid=10yrq5hl1dosq"></paramerer>
+
+		<classes>
+			<class name="testingflagsReadDatafromeXML"></class>
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
